@@ -1,0 +1,28 @@
+menu "MySwitcher 组件配置"
+    config MAX_WORK_TIME
+        int "最长工作时间（分钟）"
+        default 15
+        help
+            "配置一次运行最长的时间"
+    config MIN_WORK_TIME
+        int "最短工作时间（分钟）"
+        default 1
+        help
+            "配置一次运行最短的时间"
+    config MAX_PAUSE_TIME
+        int "最长暂停时间（分钟）"
+        default 15
+        help
+            "配置一次暂停最长的时间"
+    config MIN_PAUSE_TIME
+        int "最短暂停时间（分钟）"
+        default 1
+        help
+            "配置一次暂停最短的时间"
+    config MAX_WORK_COUNT
+        int "最多工作次数"
+        default 5
+    config MIN_WORK_COUNT
+        int "最短工作时间（分钟）"
+        default 1
+endmenu
